@@ -1,0 +1,15 @@
+extend ../layout/default
+
+block page_data
+  - var siteTitle = ""
+  - var description = ""
+  - var keywords = ""
+  - var siteUrl = ""
+
+block body
+  h1 body
+  ul
+    for data in page_data
+      li
+        h2= data.title
+        p= data.text
