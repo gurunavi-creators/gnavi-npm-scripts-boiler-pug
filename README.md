@@ -3,51 +3,6 @@
 - npm-boiler-pug-babel-sassリポジトリ
 
 
-# プレビュー
-
-## MUプレビュー
-
-[sample](sample)
-
-
-# ファイルデプロイ先
-
-## テスト
-
-- sample 以下
-
-## テスト CDNかける場合
-
-- sample 以下
-
-## 本番
-
-- sample 以下
-
-## 本番 CDNかける場合
-
-- sample 以下
-
-
-# Jenkins
-
-## プレビュー
-
-[sample](sample)
-
-## test-x.gnst デプロイ
-
-[sample](sample)
-
-## sample 本番 デプロイ
-
-以下の2ステップによりリリースしてください
-
-1.[sample](sample)
-
-2.[sample](sample)
-
-
 # package
 
 ## package installed
