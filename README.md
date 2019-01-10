@@ -14,10 +14,17 @@
 
 ## install
 
+### clone
+
+    git clone https://github.com/gurunavi-creators/gnavi-npm-scripts-boiler-pug.git
+
+### change directory
+
+    cd gnavi-npm-scripts-boiler-pug
+
 ### install
 
     npm i
-
 
 ### build
 
@@ -70,10 +77,6 @@
 
 
 # CSS開発方針
-
-## 設計方針
-
-- [設計方針](設計方針)
 
 ## セレクター命名方針
 
