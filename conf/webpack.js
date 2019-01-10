@@ -1,21 +1,23 @@
+const path = require('path');
 const webpack = require('webpack');
 
 module.exports = {
+  mode: 'production',
   entry: { //ビルドするファイル
     common: './src/js/common.js'
   },
   output: {
-    path: __dirname + '/../dist/js', //ビルドしたファイルを吐き出す場所(絶対パス)
+    path: path.join(__dirname, '/../dist/js'), //ビルドしたファイルを吐き出す場所(絶対パス)
     filename: '[name].js' //ビルドした後のファイル名
   },
   module: {
-    loaders: [
+    rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel-loader',
         query:{
-          presets: ['es2015']
+          presets: ['env']
         }
       },
       {
